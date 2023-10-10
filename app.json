@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "social-activities-app-v8beta",
+    "slug": "snack-c7ef1764-d5ad-4f6f-957c-4365df17bcfe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.dishita.togethr"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "An App which allows people to post and participate in social events",
+    "extra": {
+      "eas": {
+        "projectId": "3384c973-4332-4576-98fe-7848fef30b07"
+      }
+    }
+  }
+}
